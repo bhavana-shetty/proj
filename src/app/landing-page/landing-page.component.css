@@ -1,0 +1,123 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#into-parralax{
+    background-image: url("../../assets/images/intro-3.jpg");
+    height: auto;
+    width:100%;
+    min-height: 100vh; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+}
+
+#into-parralax h1{
+    font-size:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#intro-content{
+    margin-left: 55%;
+    padding:20px;
+}
+
+.white{
+    color:black;
+}
+.logo-small {
+    color: rgb(83, 22, 22);
+    font-size: 50px;
+  }
+
+
+#into-parralax:before{
+    top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+    min-height: 100vh; 
+	content: " ";
+    position: absolute;
+    
+}
+
+#intro-content{
+    padding:60px;
+}
+
+#sec-part{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.services p{
+    font-size: 25px;
+}
+.forth-part{
+    width:100%;
+    height:50vh;
+    background-color: #531616;
+}
+
+.fifth-part-parallax{
+    background-image: url(../../assets/images/bg1.jpg);
+    height: auto;
+    width:100%;
+    min-height: 100vh; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.fifth-part-parallax::before{
+
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        min-height: 100vh; 
+        content: " ";
+        position: absolute;
+        
+    
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.third-content{
+    width: 100%;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .third-content{
+        width: 100%;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
